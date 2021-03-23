@@ -1,6 +1,6 @@
 KERNCONF=GENERIC
 TARGET_ARCH=armv7
-IMAGE_SIZE=$((2 * 1000 * 1000 * 1000))
+IMAGE_SIZE=$((4 * 1000 * 1000 * 1000))
 
 # check for mkimage utility
 clearfog_check_uboot-tools ( ) {
